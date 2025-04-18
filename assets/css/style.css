@@ -864,3 +864,172 @@ footer button svg {
 section.clients-section {
     padding: 100px 0 50px;
 }
+
+/* responsive */
+.about-box.border-box {
+    padding: 0 10px;
+}
+
+.industry-box .i-icon {
+    width: 131px;
+    height: 138px;
+}
+
+.industry-box .i-icon img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 1259.98px) {
+    .hero-wrapper {
+        min-height: 750px;
+    }
+
+    .hero-content h1 {
+        font-size: 75px;
+        line-height: 88px;
+        margin-bottom: 20px;
+    }
+
+    .about-wrapper h2 {
+        font-size: 75px;
+        line-height: 88px;
+    }
+
+    .about-box.border-box {
+        padding: 0 10px;
+    }
+
+    .service-title {
+        font-size: 75px;
+        line-height: 88px;
+    }
+
+    .service-wrapper {
+        min-height: 750px;
+    }
+
+    .service-wrapper.sw-two h3 {
+        font-size: 55px;
+        line-height: 66px;
+
+    }
+
+    .magic-module h2 {
+
+        font-size: 65px;
+        line-height: 75px;
+    }
+
+    .our-industries-wrapper h2 {
+        font-size: 75px;
+        line-height: 88px;
+    }
+
+    .industry-box h4 {
+        font-size: 30px;
+
+    }
+
+    .testimonial-wrapper h2 {
+        font-size: 75px;
+        line-height: 88px;
+    }
+
+    .newsletter-wrapper {
+        padding: 100px 0;
+
+    }
+
+    .magic-wrap .magic-box.m-b-2 {
+        width: 340px;
+        height: 250px;
+        top: 50px;
+
+    }
+
+    .magic-wrap .magic-box .m-title {
+        font-size: 50px;
+
+    }
+
+    .magic-wrap .magic-box.m-b-1 {
+        width: 290px;
+        height: 290px;
+    }
+
+    .magic-wrap .magic-box.m-b-3 {
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .tap-wrap .contact-tag {
+        width: 180px;
+        height: 50px;
+    }
+
+    .tap-wrap .contact-tag svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .tap-wrap .contact-tag span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .magic-wrap .magic-box.m-b-1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .magic-wrap .magic-box .m-title {
+        font-size: 32px;
+    }
+
+    .magic-wrap .magic-box .m-sub-title {
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .magic-wrap .magic-box span {
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+    }
+
+    .magic-wrap .magic-box.m-b-3 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .magic-wrap .magic-box.m-b-2 {
+        width: 300px;
+        height: 200px;
+        top: 25px;
+    }
+
+    .magic-wrap .magic-box.m-b-4 {
+        width: 560px;
+        margin: auto;
+        height: 350px;
+    }
+
+    .newsletter-wrapper .newsletter-content .newsletter-input-wrapper {
+        width: 600px;
+
+    }
+}
+
+@media screen and (max-width: 990px) {
+    body {
+        opacity: 0;
+        display: none;
+    }
+}
